@@ -15,7 +15,7 @@ public class CorsConfig {
     public CorsWebFilter corsWebFilter() {
         CorsConfiguration corsConfig = new CorsConfiguration();
 
-        // Frontend Web VM IP එක Allow කිරීම
+        // Frontend Web VM IP එක සහ Localhost Allow කිරීම
         corsConfig.setAllowedOrigins(Arrays.asList("http://136.115.232.54", "http://localhost"));
         corsConfig.setMaxAge(3600L);
         corsConfig.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
