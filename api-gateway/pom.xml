@@ -7,10 +7,11 @@
 
  <modelVersion>4.0.0</modelVersion>
 
- <parent>
+<parent>
   <groupId>com.eventsphere</groupId>
-  <artifactId>eventsphere</artifactId>
+  <artifactId>eventsphere-platform</artifactId>
   <version>2.0.0</version>
+  <relativePath>../pom.xml</relativePath>
  </parent>
 
  <artifactId>api-gateway</artifactId>
